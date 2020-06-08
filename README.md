@@ -73,7 +73,7 @@ $ yarn dev
 
 ## 🌐 App Web
 
-> 🏷️ Server needs run
+> 🏷️ Server needs to be running
 
 Install process:
 
@@ -93,7 +93,7 @@ $ yarn start
 
 ## 📱 App Mobile
 
-> 🏷️ Server needs run
+> 🏷️ Server needs to be running
 
 Install process:
 
