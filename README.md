@@ -8,21 +8,114 @@ Marketplace to join customer interested in recycling your's waste and company th
 
 # Project structure
 
-This is a fullstack project and is divide in three parts: server, app web and app mobile.
+This is a fullstack project and is divide in three parts: [server](server), [app web](web) and [app mobile](mobile).
 
 ## 🛠️ Technologies
 
 These are the technologies used throughout the project:
 
--  [Node.js][https://nodejs.org/en/]
+-  [Node.js][nodejs]
 -  [ReactJS](https://reactjs.org/)
--  [TypeScript][https://www.typescriptlang.org/]
+-  [ReactNative](https://reactnative.dev/)
+-  [Expo](https://expo.io/learn)
+-  [TypeScript](https://www.typescriptlang.org/)
 -  [React Navigation](https://reactnavigation.org/)
 -  [Axios](https://github.com/axios/axios)
--  [Knex.js] [http://knexjs.org/#knexfile]
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-  [Knex](http://knexjs.org/#knexfile)
 
-## Server Side
+# How to install and run
 
+## 📌 Prerequisites
+
+You need install:
+
+- [Node.js][nodejs] (prefer version 12.17.0 or higher)
+- [Expo CLI][expocli] for manager package from Expo
+- [Yarn][yarn] (prefer version 1.21.1 or higher)
+
+Clone GitHub project:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/deividr/nlw-01
+
+# Go into the repository
+$ cd nlw-01
+```
+
+## 🖥️ Server Side
+
+Install process:
+
+```bash
+# Go into the folder server
+$ cd server
+
+# Install package's
+$ yarn install
+
+# Go to into the folder database configuration
+$ cd src/database
+
+# Executes migrations with knex
+$ yarn knex:migrate
+
+# Insert datas execute seeds
+$ yarn knex:seed
+```
+
+Run process:
+
+```bash
+# Run with ts-node-dev for watch modify files and restart server
+$ yarn dev
+```
+
+## 🌐 App Web
+
+> 🏷️ Server needs run
+
+Install process:
+
+```bash
+# Go into the folder web
+$ cd web
+
+# Install package's
+$ yarn install
+```
+
+Run process:
+
+```bash
+$ yarn start
+```
+
+## 📱 App Mobile
+
+> 🏷️ Server needs run
+
+Install process:
+
+```bash
+# Go into the folder mobile
+$ cd mobile
+
+# Install package's
+$ yarn install
+```
+
+Run process:
+
+```bash
+$ yarn start
+```
 
 ## :tada: Improvements
+
+[nodejs]: https://nodejs.org/
+[expocli]: https://docs.expo.io/get-started/installation/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
