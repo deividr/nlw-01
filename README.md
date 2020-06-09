@@ -6,6 +6,23 @@ Marketplace to join customer interested in recycling your's waste and company th
 
 > This project is the result of studies acquired at **Next Level Week # 01** available by the company **Rocketseat**. 
 
+# Screenshots
+
+##### 🌐 App Web
+
+![web_home](.github/assets/web_home.jpg)
+![web_home](.github/assets/web_register01.jpg)
+![web_home](.github/assets/web_register02.jpg)
+![web_home](.github/assets/web_register03.jpg)
+
+##### 📱 App Mobile
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./.github/assets/mobile_home.jpg">
+  <img src="./.github/assets/mobile_select.jpg">
+  <img src="./.github/assets/mobile_detail.jpg">
+</div>
+
 # Project structure
 
 This is a fullstack project and is divide in three parts: [server](server), [app web](web) and [app mobile](mobile).
@@ -123,26 +140,9 @@ $ yarn start
 - Includes selector field to City
 - Integration with the IBGE API for get Federal Unity and City
 
-# Screenshots
-
-##### 🌐 App Web
-
-![web_home](.github/assets/web_home.jpg)
-![web_home](.github/assets/web_register01.jpg)
-![web_home](.github/assets/web_register02.jpg)
-![web_home](.github/assets/web_register03.jpg)
-
-##### 📱 App Mobile
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="./.github/assets/mobile_home.jpg">
-  <img src="./.github/assets/mobile_select.jpg">
-  <img src="./.github/assets/mobile_detail.jpg">
-</div>
-
 # 📝 License
 
-This project is under the MIT license. See the LICENSE for more information.
+This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
 
 [nodejs]: https://nodejs.org/
 [expocli]: https://docs.expo.io/get-started/installation/
