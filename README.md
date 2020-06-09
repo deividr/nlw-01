@@ -33,7 +33,7 @@ You need install:
 - [Expo CLI][expocli] for manager package from Expo
 - [Yarn][yarn] (prefer version 1.21.1 or higher)
 
-Clone GitHub project:
+Clone this repository:
 
 ```bash
 # Clone this repository
@@ -111,7 +111,38 @@ Run process:
 $ yarn start
 ```
 
-## :tada: Improvements
+# 📥 Improvements
+
+##### 🖥️ Server Side
+
+- Not allow the upload of files other than images
+
+##### 📱 App Mobile
+
+- Includes selector field to Federal Unity
+- Includes selector field to City
+- Integration with the IBGE API for get Federal Unity and City
+
+# Screenshots
+
+##### 🌐 App Web
+
+![web_home](.github/assets/web_home.jpg)
+![web_home](.github/assets/web_register01.jpg)
+![web_home](.github/assets/web_register02.jpg)
+![web_home](.github/assets/web_register03.jpg)
+
+##### 📱 App Mobile
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./.github/assets/mobile_home.jpg">
+  <img src="./.github/assets/mobile_select.jpg">
+  <img src="./.github/assets/mobile_detail.jpg">
+</div>
+
+# 📝 License
+
+This project is under the MIT license. See the LICENSE for more information.
 
 [nodejs]: https://nodejs.org/
 [expocli]: https://docs.expo.io/get-started/installation/
@@ -119,3 +150,7 @@ $ yarn start
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+---
+
+For more about [me:crown:](https://www.linkedin.com/in/deivid-assump%C3%A7%C3%A3o-rodrigues-a36a5685/).
